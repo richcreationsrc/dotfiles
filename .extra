@@ -5,3 +5,5 @@ export PATH="$PATH:$HOME/.rvm/bin"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 export JRUBY_OPTS="-Xcext.enabled=true -X-C -J-Xms900m -J-Xmx1200m -J-XX:MaxPermSize=500m --headless -J-XX:+TieredCompilation -J-XX:TieredStopAtLevel=1 -J-Xcompile.invokedynamic=false -J-XX:+UseConcMarkSweepGC"
+
+git config --global core.editor "subl -n -w"
